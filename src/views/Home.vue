@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts">
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, alertController } from '@ionic/vue';
+import { IonCard, IonCardHeader, IonCardSubtitle, IonCardContent, IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, alertController } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import { BarcodeScanner } from '@capacitor-community/barcode-scanner';
 
@@ -39,7 +39,11 @@ export default defineComponent({
 	name: 'Home',
 	components: {
 		IonButton,
+		IonCard,
 		IonContent,
+		IonCardHeader,
+		IonCardSubtitle,
+		IonCardContent,
 		IonHeader,
 		IonPage,
 		IonTitle,
